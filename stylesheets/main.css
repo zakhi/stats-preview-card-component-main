@@ -3,9 +3,65 @@
 
 body {
     font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: white;
+    background: #090b1a;
+}
+
+.card {
+    background: #1b1938;
+    max-width: 90%;
+    margin: 6em auto;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#card-image {
+    background: #aa5cdb url(../images/image-header-mobile.jpg) center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 250px;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.description {
+    padding: 1em 1.8em;
+}
+
+.description h1 {
+    margin: 1em 0;
+    font-size: 1.8rem;
+}
+
+.description strong {
+    color: #aa5cdb;
+}
+
+.description p {
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+}
+
+.stats {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stats li {
+    margin: 2em 0;
+}
+
+.stats h2 {
+    margin: 0;
 }
 
 .stats p {
     font-family: "Lexend Deca", sans-serif;
+    font-size: 0.8rem;
     text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin: 0.5em 0;
 }
