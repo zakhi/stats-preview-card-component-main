@@ -18,7 +18,7 @@ body {
     background: #1b1938;
     max-width: 90%;
     margin: 6em auto;
-    border-radius: 1em;
+    border-radius: 0.5em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@ body {
     background-blend-mode: multiply;
     height: 250px;
     width: 100%;
-    border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 .card-description {
@@ -75,6 +75,13 @@ body {
 }
 
 @media (min-width: 1200px) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .card {
         flex-direction: row-reverse;
         text-align: left;
@@ -87,7 +94,7 @@ body {
         width: 540px;
         height: 100%;
         border-top-left-radius: 0;
-        border-bottom-right-radius: 1em;
+        border-bottom-right-radius: 0.5em;
         flex-shrink: 0;
     }
 
